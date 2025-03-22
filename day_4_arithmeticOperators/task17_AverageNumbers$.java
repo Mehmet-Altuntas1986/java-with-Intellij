@@ -1,5 +1,7 @@
 package day_4_arithmeticOperators;
 
+import java.sql.SQLOutput;
+
 public class task17_AverageNumbers$ {
 
 	public static void main(String[] args) {
@@ -15,16 +17,16 @@ public class task17_AverageNumbers$ {
 		num2=20;
 		
 		num3=60;
-		
 		average = (num1+num2+num3)/3;
 		
-		System.out.println("Average is "+ average);
-		
-		
-		
-		
-				
-		 int pies=10,people=4;
+		System.out.println("Average is "+ average);   //Average is 30.0
+
+		System.out.println(num1+num2+num3/3);   //50            // carpma ve bolmede islem onceligi var
+
+
+
+
+		int pies=10,people=4;
 		
 		double piecesPerson;
 		

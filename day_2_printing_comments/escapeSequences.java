@@ -15,23 +15,23 @@ public class escapeSequences {
 		
 		System.out.println("\tLearn Java the \"Easy\" Way!\n");
 		
-		System.out.println("\\ // -=- \\ //");
-		
-		System.out.println("\\\\ \\\\\\ \\\\\\\\");
-		
-		System.out.println("");
+		System.out.println("\\ // -=- \\ //");           //    \ // -=- \ //
+
+		System.out.println("\\\\ \\\\\\ \\\\\\\\");      //    \\ \\\ \\\\
 		
 		System.out.println("");
+		
+		//System.out.println("");
 		
 		System.out.println("Task-4");
 		
 		System.out.println(" ");
 		
-		System.out.println("\"\\__/\"");
+		System.out.println("\"\\__/\"");   //     "\__/"
 		
 		System.out.println(" ");
 		
-		System.out.println("He said \"Hello\".");
+		System.out.println("He said \"Hello\".");    //He said "Hello".
 		
 		System.out.println(" ");
 		
@@ -39,7 +39,7 @@ public class escapeSequences {
 		
 		System.out.println();
 		
-		System.out.print( "dolar\rI hope you understand \"escape sequences\" now.\n" );
+		System.out.print( "dolar\rI hope you understand \"escape sequences\" now.\n" );    // I hope you understand "escape sequences" now.
 
 		
 		
@@ -64,7 +64,7 @@ public class escapeSequences {
 \f	Inserts a form feed in the text at this point.
       Bulundugu yerde sadece 1 harflik  bosluk olusturur
 
-\'	Inserts a single quote character in the text at this   point.
+ \'	Inserts a single quote character in the text at this   point.
 
 \"	Inserts a double quote character in the text at this point.
 
@@ -74,7 +74,7 @@ public class escapeSequences {
 
 
 
-
+//    left arrow +option+7  forms  \ olustur
 
 
 

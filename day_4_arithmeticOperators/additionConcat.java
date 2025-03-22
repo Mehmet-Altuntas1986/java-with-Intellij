@@ -24,7 +24,7 @@ public class additionConcat {
 		//Boolean+Number
 		//System.out.println(true+1);
 
-		//soldan saga dogru islem oluyor
+		//*** soldan saga dogru islem oluyor
 		
 		System.out.println(2+0+3+"Cybertek");  //5Cybertek
 		

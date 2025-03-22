@@ -20,7 +20,11 @@ public class MixedInteger_$ {
 		
 		int thirdNumber=firstNumber+secondNumber;
 		
-		short thirdNumber2=(short)(firstNumber+secondNumber);  //casting gerekli
+		short thirdNumber2= (short) (firstNumber+secondNumber);  //casting gerekli
+
+		//
+		//cunku , Java'da aritmetik işlemler (toplama, çıkarma gibi) yapıldığında, küçük veri tipleri (örneğin short, byte)
+		//* otomatik olarak büyütülür ve sonuç int tipine dönüştürülür. Bu, Java'nın veri kaybını önlemek için yaptığı bir işlemdir.
 		
 //		byte b1=20;
 //		byte b2=2;
@@ -45,6 +49,6 @@ int+float=float
 float+double=double
 int+double=double
 int+short=int
-
+short+short=int    ****
 
  */

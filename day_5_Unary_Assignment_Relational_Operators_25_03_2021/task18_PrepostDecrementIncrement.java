@@ -9,8 +9,8 @@ public class task18_PrepostDecrementIncrement {
 		int y = x++;  //y=2 because ++ is post comes active in the next line.  //sonraki line da x e 1 ekle
 		// If we write like y=x; then result will be x=3,y=3
 		
-		System.out.println(x);
-		System.out.println(y);
+		System.out.println(x);   //3
+		System.out.println(y);   //2
 		
 		
 		/*

@@ -44,7 +44,7 @@ public class OperatorPrecedence {
 		int y = 20;
 		x=(y!=10)&&(z=false);
 		
-		System.out.println(x);  
+		System.out.println(x);   //  T && F  --> F
 		
 
 	}

@@ -31,8 +31,14 @@ public class SwitchCaseStatement {
 			System.out.println("Code Java in any other weather");
 		
 		}
-		
+
+        //AFTER JAVA 14
+        //NO NEED break usage ,  lambda ,  more than one case can be written ,
 
 	}
+
+
+
+
 
 }

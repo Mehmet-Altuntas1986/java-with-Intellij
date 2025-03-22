@@ -8,7 +8,7 @@ public class Concatenation {
 		 //                             result
 		System.out.println("a"+ 1);            //a1
 		System.out.println("a"+      1);       //a1
-		System.out.println("a"+.1);            //a01     noktayi sifir gibi algilamis
+		System.out.println("a"+.1);            //a0.1     noktayi sifir gibi algilamis
 		//System.out.println("a"+  .    1);    //error
 		//System.out.println("a"+      _1);    //error
 		System.out.println("a"+      1);   //birin onune bu isaretler konursa  ?  ,  "   ""   _  #  '  hata verir

@@ -87,7 +87,7 @@ public class arithmeticOperators {
 		
 		System.out.println(60/3);
 				
-		//System.out.println(11/0); //throw error while running the code
+		//System.out.println(11/0); //Java will throw an exception called ArithmeticException at runtime
 				
 		System.out.println(11*0); // for * multipcation there is no problem
 		

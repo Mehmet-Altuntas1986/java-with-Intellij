@@ -4,7 +4,7 @@ package day_1_hello_world_16_03_2021;
                             //you can write String[] args,   String args[] or    String...args;    the compiler accepts any of these
 	 public static void main(String [] args) {  //burada sadece istersek args ismini degistirebiliriz , digerlerini degistirmek hata olusturururr
 
-		//System.out.println("Hello World");
+		System.out.println("Hello World");
 		 System.out.println(args[0]);   //compiler hatasi vermedi ama Exception olustu konsolda -Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
 
 
@@ -20,7 +20,9 @@ package day_1_hello_world_16_03_2021;
  
 /*
  
- 1.	Public: It is an Access modifier, which specifies from where and who can access the method. Making the main() method public makes it globally available. It is made public so that JVM can invoke it from outside the class as it is not present in the current class.
+ 1.	Public: It is an Access modifier, which specifies from where and who can access the method.
+ Making the main() method public makes it globally available. It is made public so that JVM can invoke it from outside
+  the class as it is not present in the current class.
 
 
 package day1_hello_world_16_03_2021;
@@ -45,7 +47,11 @@ class GeeksforGeeks {
 }
 	Error: Main method not found in class, please define the main method as:	public static void main(String[] args)
     or a JavaFX application class must extend javafx.application.Application
-	Static: It is a keyword which is when associated with a method, makes it a class related method. The main() method is static so that JVM can invoke it without instantiating the class. This also saves the unnecessary wastage of memory which would have been used by the object declared only for calling the main() method by the JVM.
+
+	Static: It is a keyword which is when associated with a method, makes it a class related method.
+	The main() method is static so that JVM can invoke it without instantiating the class.
+	 This also saves the unnecessary wastage of memory which would have been used by the object declared only for
+	 calling the main() method by the JVM.
 
  class GeeksforGeeks {
     public void main(String[] args)
@@ -66,7 +72,7 @@ class GeeksforGeeks {
 9.	Error: Main method not found in class, please define the main method as:
 10.	public static void main(String[] args)
 11.	or a JavaFX application class must extend javafx.application.Application
-12.	main: It is the name of Java main method. It is the identifier that the JVM looks for as the starting point of the java program. It’s not a keyword.
+main: It is the name of Java main method. It is the identifier that the JVM looks for as the starting point of the java program. It’s not a keyword.
 class GeeksforGeeks {
     public static void myMain(String[] args)
     {
@@ -91,7 +97,9 @@ class GeeksforGeeks {
 
 
 
-	Apart from the above mentioned signature of main, you could use public static void main(String args[]) or public static void main(String… args) to call the main function in java. The main method is called if it’s formal parameter matches that of an array of Strings.
+	Apart from the above mentioned signature of main, you could use public static void main(String args[]) or
+	 public static void main(String… args) to call the main function in java.
+	 The main method is called if it’s formal parameter matches that of an array of Strings.
 
 
 

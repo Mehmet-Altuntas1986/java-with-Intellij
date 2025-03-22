@@ -21,7 +21,8 @@ public class IfElseStatement {
 
 		System.out.println("*******************");
 		
-		
+		//Değişkeni if-else bloğunun dışında tanımlayın, ardından if-else içinde değer atayın.
+		// Böylece değişkene tüm kod bloğunda erişebilirsiniz.
 		int sales,bonus;
 	
 		double commisionRate,salary;

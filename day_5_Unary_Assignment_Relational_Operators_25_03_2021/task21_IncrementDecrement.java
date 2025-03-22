@@ -6,10 +6,10 @@ public class task21_IncrementDecrement {
 		
 		
 		int x = 4;
-		int y = x * 4 - x++;
+		int y = x * 4 - x++;    //12        bir sonraki line da  x  1 artar
 		
-		System.out.println("x = " + x);
-		System.out.println("y = " + y);
+		System.out.println("x = " + x);   //5
+		System.out.println("y = " + y);   //12
 		
 		//x in memory : 4 - > 5
 		//y           : 4 * 4 - 4 = > 12

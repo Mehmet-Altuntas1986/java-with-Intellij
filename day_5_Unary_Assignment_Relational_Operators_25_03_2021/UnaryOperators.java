@@ -26,10 +26,14 @@ public class UnaryOperators {
 		System.out.println(--j);
 		System.out.println(j);
 		System.out.println("........................................");
-		
-		
-		
-		
+
+
+		int p = 5;
+		p += 2;  // Doğru kullanım, p = p + 2 olur
+		System.out.println(p);  // Çıktı: 7
+
+		p+=p;  // Doğru kullanım, p = p + p olur
+		System.out.println(p);
 		
 		
 		--j; // same as j=j-1
@@ -38,8 +42,8 @@ public class UnaryOperators {
 		System.out.println("j = " + j);
 		
 		
-		//i=11, j=4
-		int res = i++ + --j;
+		//i=11, j=3
+		int res = i++ + --j;     // -- ler onde oldugu icin bu line da j degeri 3 ten 2 ye duser
 		
 		System.out.println("res = " + res );
 		

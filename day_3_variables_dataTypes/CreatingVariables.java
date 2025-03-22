@@ -10,9 +10,9 @@ public class CreatingVariables {
 		//We can put int,strings... to the same line or write them separately
 		
 		int price2,quantity2;
-		String name,address,country,lastname;
+		String name,address,country,lastname;       //decleration
 		
-		name="ABD";
+		name="ABD";                      //assignment
 		address="Netherlands";
 		
 		price2=100;

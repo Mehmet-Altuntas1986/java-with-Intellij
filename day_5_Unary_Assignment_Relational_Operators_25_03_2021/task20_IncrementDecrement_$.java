@@ -7,7 +7,7 @@ public class task20_IncrementDecrement_$ {
 		
 		int a = 1;
 		int result = -a-- + a++ / -a-- * --a;  // a nin aldigi degerler  1   0  1  -1
-		
+
 		
 		//a in memory : 1 - > 0 - > 1 - > 0 - > -1
 		

@@ -25,7 +25,7 @@ public class typeCasting {
 		System.out.println("d = " + d + " b = " + b);
 
 		//Big data loss happened while converting double to byte
-		//d was 323.141 when converting became 67 ???
+		//d was 323.141 when converting became 69 ???
 		
 
 	}

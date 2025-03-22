@@ -24,6 +24,7 @@ public class ConstantVariables {
 		int a75 = 43;
 		
 		System.out.println("d1 "+ "A "+ "a75");
+		System.out.println(d1 + A + a75);
 				
 		
 		
